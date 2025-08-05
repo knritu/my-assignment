@@ -3,8 +3,9 @@
     justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
-
-
+   max-width: 1140px;
+   max-height: 151px;
+   margin: auto;
 }
 
 .nav{
@@ -23,22 +24,22 @@
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #3f3fff;
+  color: rgba(78, 71, 255, 1);
 
 }
 .signup {
   background-color: #3f3fff;
-  color: hwb(0 100% 0% / 0.945);
+  color: rgba(255, 255, 255, 1);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 500;
-  transition: background 0.3s;
+  
   display: block;
 }
 .container{
     text-align:center;
-    font-size: 36px;
+    font-size: 34px;
   font-weight: bold;
   line-height: 1.4;
 
@@ -55,16 +56,17 @@
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
-  transition: background 0.3s;
+  
    display:flex
    
 }
  main{
    background: #e5e7ff;
     font-family: Arial, sans-serif;
-  margin: 0;
   padding: 6px;
   color: #1a1a1a;
+  max-width: 1140px;
+  margin: auto;
  } 
  section {
   padding: 40px 20px;
@@ -72,22 +74,22 @@
 }
 .preview{
   display: flex;
-  flex-wrap: wrap; 
+  max-width: 1140px;
   justify-content: space-between;
   align-items: center;
-  background: #e5e7ff;
+  margin: auto;
   text-align: center;
   
 }
 .image{
  text-align: right;
-    flex: 1;
-  min-width: 250px;
+    max-width: 403px;
+  max-height: 328px;
   padding: 20px;
 }
 img{ 
   
-  border-radius: 16px;
+  border-radius: 18px;
   max-width: 100%;
   height: auto;
 }
@@ -98,7 +100,7 @@ img{
 
 .test{
    font-size: 20px;
-color: mediumpurple;
+color: rgba(37, 36, 50, 0.5);
 }
 .font{
    font-size: 36px;
@@ -110,7 +112,7 @@ color: mediumpurple;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 500;
-  transition: background 0.3s;
+
   display: block;
 }
 .stats {
@@ -266,12 +268,13 @@ contact-section {
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  
+}
+.right form button:hover{
+  background-color: yellow;
+  color: black;
 }
 
-.right form button:hover {
-  background-color: #362cb0;
-}
 
 /* Footer Section */
 footer {
@@ -282,25 +285,28 @@ footer {
 
 footer h1 {
   color: #4c40f7;
-  font-size: 46px;
-  font-weight: bolder;
-  margin-bottom: 10px;
-}
+  font-size: 100px;
+  font-weight: 900;
+  margin:auto;
+  font-family: 'Inter', sans-serif;
+  }
 
 footer p {
   max-width: 600px;
   margin: 0 auto 20px;
-  font-size: 14px;
-  color: #333;
+  
+  color: rgba(137, 135, 161, 1);
 }
 
 .footer-links a {
   margin: 0 10px;
   text-decoration: none;
-  color: #4c40f7;
-  font-weight: bold;
+  color: rgba(137, 135, 161, 1);
+  
 }
 
-.footer-links a:hover {
-  text-decoration: underline;
+button:hover {
+  background-color: yellow;
+  color: #1a1a1a;
+  cursor: pointer;
 }
